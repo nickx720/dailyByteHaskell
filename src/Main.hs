@@ -1,9 +1,11 @@
 module Main where
 
 import ReverseString
+import Palindrome
   
 
 main :: IO ()
 main = do
-  let x = ReverseString.reverseString "civic"
-  putStrLn x
+  let x = Palindrome.checkPalindrome "A man, a plan, a canal: Panama."
+  if x then putStrLn "True" else putStrLn "False"
+ {-  putStrLn x -}

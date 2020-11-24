@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: ada38e51fff0632ed03aad62884d64fdcdcfb2cf6b345fea50eab18d1de2bff0
+-- hash: 9abb89b464e8de2b7d97bc107fa3f5e57ae7f34062fcb12928b760e4e5a72c75
 
 name:           dailyByte
 version:        0.1.0.0
@@ -22,6 +22,7 @@ extra-source-files:
 executable dailyByte
   main-is: Main.hs
   other-modules:
+      Palindrome
       ReverseString
       Paths_dailyByte
   hs-source-dirs:
