@@ -14,3 +14,5 @@ removePunc xs = [ x | x <- xs, not (x `elem` ",.?!-:;\"\' ") ]
 
 runCheck :: [Char] -> Bool
 runCheck xs = map toLower xs  == map toLower (reverse xs )
+
+{- https://vimeo.com/6624203 -}
